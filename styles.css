@@ -1,0 +1,149 @@
+/* General */
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #333;
+    background-color: #f8ddc8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5e8dc; /* Color de fondo */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 600px; /* Ajusta el tamaño del logo aquí según lo necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 15px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #722f37;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #722f37; /* Color oscuro para los enlaces */
+    font-size: 20px; /* Ajusta el tamaño de la fuente según lo necesites */
+    padding: 10px; /* Espacio alrededor del texto */
+}
+
+
+
+/* Sección de Video */
+.hero {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.video-overlay h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-whatsapp {
+    background-color: #25D366;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-whatsapp img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+/* Sección de Productos */
+.productos {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white; /* Fondo blanco */
+}
+
+.productos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #d6c6b8;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Sección Sobre Nosotros */
+.sobre-nosotros {
+    padding: 50px 20px;
+    background-color: #faf0e6;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #f5dd9c;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
